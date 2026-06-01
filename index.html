@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una salida con krish</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hearts"></div>
+
+    <!-- PANTALLA 1 -->
+    <div id="pantalla1" class="card">
+
+        <h1>❤️¿Quieres escaparte un rato conmigo?💙</h1>
+
+        <img
+        id="imagen"
+    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZqMmt4Y3JoaWs2MnV1ZDhmMXZxcHAzNDVyZHgxaHU3a2ExYWZwdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1JmGiBtqTuehfYxuy9/giphy.gif"
+        alt="amor">
+
+        <p id="mensaje">
+            Tengo una pregunta importante para ti...
+        </p>
+
+        <div class="botones">
+            <button id="si">Sí 💖</button>
+            <button id="no">No 😒</button>
+        </div>
+
+    </div>
+
+    <!-- PANTALLA 2 -->
+    <div id="pantalla2" class="card oculto">
+
+        <h1> ¡Sabía que no podrías resistirte!😎</h1>
+
+        <div class="celebracion">
+            ✨🎉✨🎉✨🎉✨
+        </div>
+
+        <h3>Escoge una fecha Krispi</h3>
+        <input type="date" id="fecha">
+
+        <h3>Escoge una hora</h3>
+        <input type="time" id="hora">
+
+        <h3>¿Qué te gustaría hacer?</h3>
+
+        <select id="lugar">
+            <option>Jueguitos 🎱</option>
+            <option>Cine 🎬</option>
+            <option>Cena 🍝</option>
+            <option>Helados 🍦</option>
+            <option>Sorpresa 👀</option>
+        </select>
+
+        <br><br>
+
+        <button id="confirmar">
+            Confirmar salida❤️
+        </button>
+
+    </div>
+
+    <!-- PANTALLA 3 -->
+    <div id="pantalla3" class="card oculto">
+
+        <h1>💌 Nuestra salida está reservada</h1>
+ <img
+        id="imagenfinal"
+    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG9sejh5czl6eHV1NTFjNzl0c2wyeGFsN2xvaDlqMzJ2ZDg2MGZpOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/T70hpBP1L0N7U0jtkq/giphy.gif"
+        alt="amor">
+
+        <div id="resumen"></div>
+
+        <p class="final">
+            Ahora sí... ya no puedes arrepentirte 😎
+        </p>
+
+</div>
+
+<audio id="musica" loop>
+    <source src="audio/piano.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
